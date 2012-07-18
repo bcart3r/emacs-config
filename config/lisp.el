@@ -4,6 +4,6 @@
 
 ;;Add Rainbow delimeters to most lisps
 (dolist (x '(scheme emacs-lisp lisp))
-  (add-hook (intern (concat (symbol-name x) "-mode-hook")) 'rainbow-delimers-mode))
+  (add-hook (intern (concat (symbol-name x) "-mode-hook")) 'rainbow-delimiters-mode))
 
 
