@@ -2,17 +2,19 @@
 ;; ----- smex-history -----
 (
  package-install
+ customize-group
  package-list-packages
  load-theme
  cd
  5x5
  arp
- dbx
 )
 
 ;; ----- smex-data -----
 (
  (package-list-packages . 4)
- (package-install . 8)
+ (package-install . 10)
  (load-theme . 21)
+ (rainbow-delimiters-mode . 2)
+ (customize-group . 2)
 )
