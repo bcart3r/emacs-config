@@ -24,10 +24,12 @@
 ;;Loads the config bootstrap file
 (load-config "core.el")
 
+(add-to-list 'custom-theme-load-path theme-dir)
+
 ;;Set Default Font and Theme
 (set-face-attribute 'default nil :font "Ubuntu Mono-14")
 
-(load-theme 'wombat t)
+(load-theme 'wombat-nohi t)
 
 (custom-set-faces
  '(rainbow-delimiters-depth-1-face ((t (:foreground "deep sky blue"))))
