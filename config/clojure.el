@@ -1,6 +1,11 @@
+;;Clojure Stuff
+
+;;Load up rainbow delimiters and clojure-test-mode upon loading a clj file
 (add-hook 'clojure-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'clojure-mode-hook 'clojure-test-mode)
 
 
+;;Add cool replacements for fn defintiions
 (eval-after-load 'clojure-mode
   '(font-lock-add-keywords
     'clojure-mode `(("(\\(fn\\)[\[[:space:]]"
