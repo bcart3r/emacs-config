@@ -9,7 +9,7 @@
 
 ;;adds a directory to the load path located in ~/.emacs.d/lib
 (defun add-lib-path (p)
-  (add-to-list 'load-path (concat dotfiles-dir p)))
+  (add-to-list 'load-path (concat lib-dir p)))
 
 
 ;;Loads an elisp file from ~/.emacs.d/config
